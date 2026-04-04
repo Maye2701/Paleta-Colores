@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vicolor</title>
+    <link  rel="stylesheet" href="styels.css"/>
+    <link rel="icon" type="image/png"  href="./assets/favicon.png">
+</head>
+<body>
+<header>
+    <h1>Vicolor</h1>
+</header>
+<nav>
+    <ol>
+        <li class="oli" ><a href="indexs.html">Inicio</a></li>
+        <li class="oli"><a href="Blog.html">Blog</a></li>
+        <li class="oli"><a href="contacto.html">Contacto</a></li>
+    </ol>
+</nav>
+
+<main>
+    <article class="title2">
+        <h2>¡Crea tu paleta de colores !</h2>
+    </article>
+
+    <article>
+        <form id="paletteForm">
+            <fieldset class="color-options">
+                <legend class="typeColor">Tipo de color</legend>
+                <input type="radio" id="rgb" name="format" value="rgb" />
+                <label for="rgb">RGB</label>
+
+                <input type="radio" id="hsl" name="format" value="hsl" />
+                <label for="hsl">HSL</label>
+
+                <input type="radio" id="hex" name="format" value="hex" />
+                <label for="hex">HEX</label>
+            </fieldset>
+        
+            <fieldset>
+            <legend class="typeColor">Tamaño de paleta</legend>
+            <input type="radio" id="size6" name="size" value="6" />
+            <label for="size6">6</label>
+            <input type="radio" id="size8" name="size" value="8" />
+            <label for="size8">8</label>
+            <input type="radio" id="size9" name="size" value="9" />
+            <label for="size9">9</label>
+            </fieldset>
+
+            <button id="generate">Generar paleta</button>
+
+        </form>
+    </article>
+    <div id="palette"></div>
+    <div id="mensaje-copiado"></div>
+</main>
+
+
+<footer> 
+    <p>&copy; 2026 Vicolor. Todos los derechos reservados.</p>
+    <p>Contacto: <a href="mailto:info@vicolor.com">info@vicolor.com</a></p>
+    <p>
+        Síguenos:
+        <a href="#">Instagram</a> |
+        <a href="#">Twitter</a> |
+        <a href="#">Facebook</a>
+    </p>
+</footer>
+</body>
+    <script src="./terminado.js"></script>
+</html>
