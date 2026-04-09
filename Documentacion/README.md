@@ -32,7 +32,7 @@ Está diseñada para cualquier persona que necesite colores en formatos específ
 ## Despliegue
 - El proyecto puede publicarse usando:
 
-1. GitHub Pages
+1. GitHub Pages : https://maye2701.github.io/Paleta-Colores/ 
 
 ## Proximos pasos
 
